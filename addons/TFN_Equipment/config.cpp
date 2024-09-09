@@ -9,8 +9,8 @@ class TFN_Aux
 	requiredVersion=0.1;
 	requiredAddons[]=
 	{
-"tfl_g3",
-"A3_Characters_F",
+	"tfl_g3",
+	"A3_Characters_F",
 };
 };
 };
