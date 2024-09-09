@@ -1,14 +1,14 @@
 class CfgPatches
 {
-class TFN_g3
+class TFN_Aux
 {
-magazines[]={};
-ammo[]={};
-units[]={};
-weapons[]={};
-requiredVersion=0.1;
-requiredAddons[]=
-{
+	magazines[]={};
+	ammo[]={};
+	units[]={};
+	weapons[]={};
+	requiredVersion=0.1;
+	requiredAddons[]=
+	{
 "tfl_g3",
 "A3_Characters_F",
 };
@@ -28,4 +28,5 @@ class CfgWeapons
     class tfl_new_blk_fs_npl_uniform_g;
     
 	#include "Uniforms\cfg\Uniforms.hpp"
+	#include "Vests\cfg\Vests.hpp"
 };
