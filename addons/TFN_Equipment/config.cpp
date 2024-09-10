@@ -1,18 +1,18 @@
 class CfgPatches
 {
-class TFN_Aux
-{
-	magazines[]={};
-	ammo[]={};
-	units[]={};
-	weapons[]={};
-	requiredVersion=0.1;
-	requiredAddons[]=
+	class TFN_Aux
 	{
-	"tfl_g3",
-	"A3_Characters_F",
-};
-};
+		magazines[]={};
+		ammo[]={};
+		units[]={};
+		weapons[]={};
+		requiredVersion=0.1;
+		requiredAddons[]=
+		{
+			"tfl_g3",
+			"A3_Characters_F",
+		};
+	};
 };
 class CfgVehicles
 {
